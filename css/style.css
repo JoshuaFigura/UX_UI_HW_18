@@ -52,6 +52,7 @@ h1 {
     font-size: 50px  ;
     color: #014421;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center  ;
 }
 
 p {
@@ -62,4 +63,37 @@ p {
 
 img {
     margin-left: 10px;
+}
+
+
+.flexContainer {
+    display: flex;
+    width: 60%; 
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 100px;
+    padding: 100px;
+    justify-content: space-evenly;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #014421;
+}
+
+.mySkills {
+    margin-top: 150px;
 }
